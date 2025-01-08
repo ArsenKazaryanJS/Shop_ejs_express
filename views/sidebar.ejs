@@ -1,0 +1,8 @@
+<div class="sidebar">
+  <% if(user && (user.role === "superAdmin" || user.role === 'admin')) { %> 
+    <%-include('admin_panel')%>
+  <% } else{ %>
+    <%-include('user_panel')%>
+  <% } %>
+  <%-include('settings')%>
+</div>

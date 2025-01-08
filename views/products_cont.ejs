@@ -1,0 +1,20 @@
+<div class="prod_cont">
+        <% products.forEach((prod) => { %>
+            <div class="prod_card">
+              <div class="img_cont">
+                <img src="<%= prod.thumbnail %>" alt="<%= prod.title %>">
+              </div>
+              <div class="info_cont">
+                <p class="price">price <%= prod.price %> $</p>
+                <p><%= prod.title %></p>
+                <div class="btn_cont">
+                  <button class="button" href="">Add</button>
+                  <% if(user && (user.role === "superAdmin" || user.role === 'admin')) { %> 
+                    <%-include('priceEdit',{prod})%>
+                  <% }  %>
+      
+                </div>
+              </div>       
+            </div>
+        <% }) %>
+</div>

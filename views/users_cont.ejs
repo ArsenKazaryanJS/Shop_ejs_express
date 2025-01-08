@@ -1,0 +1,17 @@
+<div class="users_cont">
+    <% users.forEach((u) => { %>
+        <div class="user_card">
+            <div class="img_cont">
+                <img src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Image">
+                <h2 class="user_role">ROLE: <%= u.role %></h2>
+            </div>   
+            <div class="user_info">
+                <p>UserName: <%= u.name %></p>
+                <p>Email: <%= u.email %></p>
+                <form action="/delete/<%= u.id %>" method="post">
+                    <button class="info_btn" >delet</button>
+                    </form>
+            </div>
+        </div>
+    <% }) %>
+</div>

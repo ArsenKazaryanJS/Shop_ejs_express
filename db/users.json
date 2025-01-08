@@ -1,0 +1,88 @@
+[
+  {
+    "id": 2,
+    "name": "Syuzi",
+    "email": "syuzi@gmail.com",
+    "age": 19,
+    "gender": "female",
+    "password": "5678",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "name": "Mher",
+    "email": "Mher@gmail.com",
+    "age": 20,
+    "gender": "male",
+    "password": "9101",
+    "role": "admin"
+  },
+  {
+    "id": 4,
+    "name": "Maria",
+    "email": "maria@gmail.com",
+    "age": 22,
+    "gender": "female",
+    "password": "1121",
+    "role": "user"
+  },
+  {
+    "id": 5,
+    "name": "Dav",
+    "email": "david@gmail.com",
+    "age": 21,
+    "gender": "male",
+    "password": "3141",
+    "role": "user"
+  },
+  {
+    "id": 6,
+    "name": "Emma",
+    "email": "emma@gmail.com",
+    "age": 23,
+    "gender": "female",
+    "password": "5161",
+    "role": "admin"
+  },
+  {
+    "id": 7,
+    "name": "Miqael",
+    "email": "michael@gmail.com",
+    "age": 24,
+    "gender": "male",
+    "password": "7181",
+    "role": "user"
+  },
+  {
+    "id": 8,
+    "name": "Sona",
+    "email": "Sona@gmail.com",
+    "age": 25,
+    "gender": "female",
+    "password": "9202",
+    "role": "user"
+  },
+  {
+    "id": 9,
+    "name": "Artur",
+    "email": "Artur@gmail.com",
+    "age": 26,
+    "gender": "male",
+    "password": "2213",
+    "role": "user"
+  },
+  {
+    "name": "admin",
+    "email": "admin@mail.ru",
+    "password": "$2a$10$3HMYZ8nlCabQt0iOh0/Vj./LuAk7iBoGk5gSj6fMFbV9V2A517VVu",
+    "role": "superAdmin",
+    "id": "1c5236b5-a007-48b6-96d9-8fbf3545172d"
+  },
+  {
+    "name": "Ajax",
+    "email": "arsen.kharyan@mail.ru",
+    "password": "$2a$10$kdOj5F5BXeSjwnNH6U6.QeWPl6HxN6xaS.8sn7/vTi4gKCcHBnTly",
+    "role": "user",
+    "id": "e0969f8b-be44-440a-a0c6-6c286c29b302"
+  }
+]

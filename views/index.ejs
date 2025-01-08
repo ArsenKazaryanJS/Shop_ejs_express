@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+         <%-include('navigation')%>
+    <div class="cont">
+         <%-include('sidebar')%>
+      <div class="page">
+        <h1>HOME PAGE</h1>
+        <p><%= user ? 'Welcome Back ' + user.name : 'Hello Guest' %></p>
+        <% if (!user){ %>
+          <p>Log in to your account to use all the features !</p>
+      <% } %>
+      <%-include('postProduct')%>
+      </div>
+    </div>
+  </body>
+</html>
