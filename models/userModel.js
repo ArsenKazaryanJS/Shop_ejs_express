@@ -25,7 +25,7 @@ const userSchema = joi.object({
     roles: joi
     .array()
     .items(joi.string())
-    .default(['user']),
+    .default('user'),
 
 })
 
